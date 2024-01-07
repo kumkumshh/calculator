@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3EDC8;
+}
+
+.container{
+    margin-top:1rem;
+    background-color: #B9B4C7;
+    border: 2px solid black;
+    height: auto;
+    width: 70%;
+}
+
+h1{
+    height: auto;
+    width: auto;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+input{
+    height: 40px;
+    width: 90%;
+}
+
+.form{
+    border: 2px solid black;
+    height: auto;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+button{
+    font-size: medium;
+    text-decoration: none;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.7rem;
+    background-color: #5C5470;
+    color: #fff;
+    border: 2px solid #352F44;
+}
