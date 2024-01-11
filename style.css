@@ -4,39 +4,49 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #F3EDC8;
-}
+/* body{
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.8)), url("https://th.bing.com/th/id/OIP.YB6epTbXpD-_h8cl8XA7YgHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 .container{
     margin-top:1rem;
-    background-color: #B9B4C7;
-    border: 2px solid black;
-    height: auto;
-    width: 70%;
+    background-color: #7077A1;
+    border: 2px solid #2D3250;
+    border-radius: 20px;
+    max-width: fit-content;
+}
+
+.main {
+    padding: 1rem;
+    margin: 1rem;
 }
 
 h1{
-    height: auto;
-    width: auto;
-    font-size: x-large;
-    font-weight: bolder;
-    border: 2px solid black;
-    padding: 1rem;
-    margin: 1rem;
+    background-image: url("https://th.bing.com/th/id/OIP.KCzhnfmrLekvbABIXgnjRgHaEo?w=250&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-position: center ;
+    background-size: cover;
+    font-size:4rem;
+    text-transform: uppercase;
+    font-weight: bolder; 
+    display: inline;
 }
 
 input{
-    height: 40px;
-    width: 90%;
+    border: 2px solid #2D3250;
+    height: 50px;
+    width: 50vh;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 30px;
 }
 
 .form{
-    border: 2px solid black;
-    height: auto;
-    width: 90%;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
 }
 
 
@@ -45,8 +55,17 @@ button{
     text-decoration: none;
     height: 3rem;
     width: 3rem;
-    margin-right: 0.7rem;
-    background-color: #5C5470;
+    margin: 0.3rem;
+    background-color: #7077A1;
     color: #fff;
-    border: 2px solid #352F44;
+    border: 2px solid #2D3250;
+    border-radius: 50%;
 }
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
